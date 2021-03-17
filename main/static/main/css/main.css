@@ -1,5 +1,6 @@
 body {
-    background-image: url("../img/wallpaper25.jpg");
+    /*background-image: url("../img/wallpaper25.jpg");*/
+    background-color: plum;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -7,39 +8,27 @@ body {
 
 .body_slides {
     list-style: none;
-    background-size: contain;
-    margin-left: 0px;
-    padding: 0px;
+    background-size: cover;
+    background-color: plum;
     z-index: -2;
-    /*background:black;*/
+
 }
 
 .body_slides,
 .body_slides:after {
     position: absolute;
-    width: 67%;
+    width: 74%;
     height: 100%;
-    /*top: 0px;*/
-    /*left: 0px;*/
-    /*right: 0px;*/
-    /*background-image: url("../img/IMG-2722.jpeg")*/
+    padding: 0px;
 }
 .body_slides after {
     content: '';
 }
 
-/*.body_slides:after {*/
-/*    content: normal;*/
-/*    background: blueviolet;*/
-/*}*/
-
-
 .body_slides li {
     width: 100%;
     height: 100%;
     position: absolute;
-    /*top: 0;*//*position: fixed;*/
-    /*left: 0;*/
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0;
