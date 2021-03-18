@@ -32,32 +32,32 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0;
-    -webkit-animation: anim_slides 24s linear infinite 0s;
-    -moz-animation: anim_slides 24s linear infinite 0s;
-    -o-animation: anim_slides 24s linear infinite 0s;
-    -ms-animation: anim_slides 24s linear infinite 0s;
-    animation: anim_slides 24s linear infinite 0s;
+    -webkit-animation: anim_slides 16s linear infinite 0s;
+    -moz-animation: anim_slides 16s linear infinite 0s;
+    -o-animation: anim_slides 16s linear infinite 0s;
+    -ms-animation: anim_slides 16s linear infinite 0s;
+    animation: anim_slides 16s linear infinite 0s;
 }
 
 .body_slides li:nth-child(1) {
-    background-image: url("../img/light2.jpeg")
-}
-
-.body_slides li:nth-child(2) {
-    -webkit-animation-delay: 6.0s;
-    -moz-animation-delay: 6.0s;
     background-image: url("../img/light3.jpeg")
 }
 
+.body_slides li:nth-child(2) {
+    -webkit-animation-delay: 4.0s;
+    -moz-animation-delay: 4.0s;
+    background-image: url("../img/light2.jpeg")
+}
+
 .body_slides li:nth-child(3) {
-    -webkit-animation-delay: 12.0s;
-    -moz-animation-delay: 12.0s;
+    -webkit-animation-delay: 8.0s;
+    -moz-animation-delay: 8.0s;
     background-image: url("../img/light4.jpeg")
 }
 
 .body_slides li:nth-child(4) {
-    -webkit-animation-delay: 18.0s;
-    -moz-animation-delay: 18.0s;
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
     background-image: url("../img/light6.jpeg")
 }
 
