@@ -102,7 +102,7 @@ body {
     font-family: Courier;
     font-style: normal;
     text-underline: none;
-    font-size: 30px;
+    font-size: 150%;
     font-weight: bold;
     position: relative;
     top: unset;
@@ -118,14 +118,14 @@ body {
 .aside h4 {
     margin-top: 40px;
     margin-left: 40px;
-    font-size: 30px;
+    /*font-size: 30px;*/
 
 }
 
 .aside h3 {
     margin-top: 40px;
     margin-left: 40px;
-    font-size: 50px;
+    /*font-size: 50px;*/
     font-weight: bold;
 }
 
@@ -155,7 +155,7 @@ body {
 .col-6 ul {
     list-style: initial;
     text-underline: none;
-    font-size: 50px;
+    font-size: 150%;
     margin-top: 100px;
     font-family: Courier;
     font-style: normal;
@@ -163,6 +163,8 @@ body {
 .col-6 ul li {
     color: darkblue;
     display: block;
+    font-size: 20px;
+    font-weight: bold;
     text-underline: none;
     margin-top: 100px;
     transition: transform .6s ease;
@@ -176,7 +178,7 @@ body {
 .col-6 h4{
     list-style: initial;
     text-underline: none;
-    font-size: 40px;
+    /*font-size: 40px;*/
     margin-top: 100px;
     color: darkblue;
     display: block;
