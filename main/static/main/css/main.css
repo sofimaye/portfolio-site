@@ -102,10 +102,8 @@ body {
 }
 
 .aside {
-    font-family: Courier;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
     font-style: normal;
-    text-underline: none;
-    font-size: 150%;
     font-weight: bold;
     position: relative;
     top: unset;
@@ -113,8 +111,7 @@ body {
     border-right: none;
     border-left: none;
     height: 100vh;
-    color: darkblue;
-
+    color: black;
 }
 
 .aside h4 {
@@ -127,6 +124,7 @@ body {
     margin-top: 40px;
     margin-left: 40px;
     font-weight: bold;
+    font-size: 200%;
 }
 
 .aside ul {
@@ -134,10 +132,9 @@ body {
 }
 
 .aside ul li {
-    color: darkblue;
+    color: black;
     display: block;
-    text-underline: none;
-    margin-top: 20px;
+    font-size: 150%;
     transition: transform .6s ease;
 }
 
@@ -158,15 +155,13 @@ body {
     list-style: initial;
     text-underline: none;
     font-size: 150%;
-    margin-top: 100px;
-    font-family: Courier;
     font-style: normal;
 }
 
 .col-6 ul li {
-    color: darkblue;
+    color: black;
     display: block;
-    font-size: 20px;
+    font-size: 75%;
     font-weight: bold;
     text-underline: none;
     margin-top: 100px;
@@ -179,15 +174,8 @@ body {
 }
 .col-6 h4{
     list-style: initial;
-    text-underline: none;
     margin-top: 100px;
-    color: darkblue;
     display: block;
-    text-underline: none;
-    font-family: Courier;
-    font-weight: bold;
-    font-style: normal;
-    text-align: center;
 }
 
 
