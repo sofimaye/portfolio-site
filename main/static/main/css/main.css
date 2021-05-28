@@ -20,6 +20,7 @@ body {
     height: 100%;
     padding: 0px;
 }
+
 .body_slides after {
     content: '';
 }
@@ -96,6 +97,9 @@ body {
     }
 }
 
+.aside a {
+    text-decoration: none;
+}
 
 .aside {
     font-family: Courier;
@@ -139,13 +143,15 @@ body {
 
 .aside ul li:hover, .aside ul a:hover {
     color: fuchsia;
-    text-decoration: none;
     transform: scale(1.10);
-
 }
 
 .galleria {
     height: 100vh;
+}
+
+.col-6 a {
+    text-decoration: none;
 }
 
 .col-6 ul {
@@ -156,6 +162,7 @@ body {
     font-family: Courier;
     font-style: normal;
 }
+
 .col-6 ul li {
     color: darkblue;
     display: block;
@@ -168,7 +175,6 @@ body {
 
 .col-6 ul li:hover, .col ul a:hover {
     color: fuchsia;
-    text-decoration: none;
     transform: scale(1.10);
 }
 .col-6 h4{
