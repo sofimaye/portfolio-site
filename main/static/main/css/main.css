@@ -1,31 +1,25 @@
 body {
-    background-color: plum;
-    background-repeat: no-repeat;
+    background-color: transparent;
     background-size: 100%;
-    background-position: center;
 }
 
 .body_slides {
-    list-style: none;
-    background-size: cover;
-    background-color: plum;
+    background-color: transparent;
     z-index: -2;
-
+    margin: 0px auto;
 }
 
 .body_slides,
 .body_slides:after {
     position: absolute;
+    background-size: contain;
     width: 74%;
     height: 100%;
     padding: 0px;
 }
 
-.body_slides after {
-    content: '';
-}
-
 .body_slides li {
+    list-style-type: none;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -100,35 +94,20 @@ body {
 .aside a {
     text-decoration: none;
 }
-
 .aside {
     font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     position: relative;
-    top: unset;
-    border-top: none;
-    border-right: none;
-    border-left: none;
     height: 100vh;
     color: black;
 }
 
-.aside h4 {
-    margin-top: 40px;
-    margin-left: 40px;
-
-}
-
 .aside h3 {
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: 20%;
+    margin-left: 14%;
     font-weight: bold;
     font-size: 200%;
-}
-
-.aside ul {
-    list-style: initial;
 }
 
 .aside ul li {
@@ -136,6 +115,7 @@ body {
     display: block;
     font-size: 150%;
     transition: transform .6s ease;
+    margin-top: 10%;
 }
 
 .aside ul li:hover, .aside ul a:hover {
@@ -152,8 +132,7 @@ body {
 }
 
 .col-6 ul {
-    list-style: initial;
-    text-underline: none;
+    margin-top: 30%;
     font-size: 150%;
     font-style: normal;
 }
@@ -163,19 +142,18 @@ body {
     display: block;
     font-size: 75%;
     font-weight: bold;
-    text-underline: none;
-    margin-top: 100px;
+    margin-top: 10%;
     transition: transform .6s ease;
 }
 
-.col-6 ul li:hover, .col ul a:hover {
+.col-6 ul li:hover, .col-6 ul a:hover {
     color: fuchsia;
     transform: scale(1.10);
 }
-.col-6 h4{
-    list-style: initial;
-    margin-top: 100px;
-    display: block;
+
+.col-6 h4 {
+    margin-top: 20%;
 }
+
 
 
