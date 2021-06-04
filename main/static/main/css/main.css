@@ -96,6 +96,7 @@ body {
 }
 .aside {
     font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    font-variant: small-caps;
     font-style: normal;
     font-weight: bold;
     position: relative;
@@ -127,12 +128,18 @@ body {
     height: 100vh;
 }
 
-.col-6 a {
-    text-decoration: none;
+.container-fluid-2 {
+    height: 100vh;
+    background-color: #dcdcdc;
 }
 
+.col-6 {
+    width: 100%;
+}
 .col-6 ul {
-    margin-top: 30%;
+    font-variant: small-caps;
+    margin-top: 10%;
+    text-align: center;
     font-size: 150%;
     font-style: normal;
 }
@@ -140,20 +147,26 @@ body {
 .col-6 ul li {
     color: black;
     display: block;
-    font-size: 75%;
     font-weight: bold;
-    margin-top: 10%;
     transition: transform .6s ease;
 }
 
-.col-6 ul li:hover, .col-6 ul a:hover {
+.col-6 ul li:hover, .container-fluid-2 ul a:hover {
     color: fuchsia;
     transform: scale(1.10);
 }
 
 .col-6 h4 {
-    margin-top: 20%;
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 30%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
 }
+
 
 
 
