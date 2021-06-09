@@ -1,23 +1,21 @@
-
-.body_slides {
-    background-color: transparent;
-    z-index: -2;
-    margin: 0px auto;
+.navigation, .content {
+    margin-right: 0px; /* TODO: properly use bootstrap */
+    margin-left: 0px; /* TODO: properly use bootstrap */
+}
+.content {
+    height: 100vh; /* TODO: stretch to bottom */
 }
 
-.body_slides,
-.body_slides:after {
-    position: absolute;
+
+.body_slides {
+    padding-left: 0px; /* TODO: properly use bootstrap */
     background-size: contain;
-    width: 100vw;
-    height: 100vh;
-    padding: 0px;
 }
 
 .body_slides li {
     list-style-type: none;
     width: 100vw;
-    height: 100vw;
+    height: 100vh; /* TODO: stretch to bottom */
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
@@ -117,11 +115,10 @@
 
 
 .galleria {
-    height: 100vh;
+    padding-left: 0px; /* TODO: properly use bootstrap */
 }
 
 .contacts {
-    height:100vh;
     background-color: #dcdcdc;
 }
 
