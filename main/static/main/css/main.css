@@ -1,7 +1,3 @@
-body {
-    background-color: transparent;
-    background-size: 100%;
-}
 
 .body_slides {
     background-color: transparent;
@@ -13,15 +9,15 @@ body {
 .body_slides:after {
     position: absolute;
     background-size: contain;
-    width: 74%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     padding: 0px;
 }
 
 .body_slides li {
     list-style-type: none;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vw;
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
@@ -91,52 +87,45 @@ body {
     }
 }
 
-.aside a {
-    text-decoration: none;
-}
-.aside {
+.col {
     font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    list-style-type: none;
     font-variant: small-caps;
     font-style: normal;
     font-weight: bold;
-    position: relative;
-    height: 100vh;
-    color: black;
+
 }
 
-.aside h3 {
-    margin-top: 20%;
-    margin-left: 14%;
-    font-weight: bold;
-    font-size: 200%;
+.col a {
+    text-decoration: none;
 }
 
-.aside ul li {
+
+.col li {
     color: black;
-    display: block;
+    padding: 5%;
     font-size: 150%;
     transition: transform .6s ease;
-    margin-top: 10%;
+    margin-top: 2%;
+
 }
 
-.aside ul li:hover, .aside ul a:hover {
+.col li:hover, .col a:hover {
     color: fuchsia;
     transform: scale(1.10);
 }
+
 
 .galleria {
     height: 100vh;
 }
 
-.container-fluid-2 {
-    height: 100vh;
+.contacts {
+    height:100vh;
     background-color: #dcdcdc;
 }
 
-.col-6 {
-    width: 100%;
-}
-.col-6 ul {
+.contacts ul {
     font-variant: small-caps;
     margin-top: 10%;
     text-align: center;
@@ -144,24 +133,24 @@ body {
     font-style: normal;
 }
 
-.col-6 ul li {
+.contacts ul li {
     color: black;
     display: block;
     font-weight: bold;
     transition: transform .6s ease;
 }
 
-.col-6 ul li:hover, .container-fluid-2 ul a:hover {
+.contacts ul li:hover, .contacts ul a:hover {
     color: fuchsia;
     transform: scale(1.10);
 }
 
-.col-6 h4 {
+.contacts h1 {
     font-style: normal;
     font-variant: small-caps;
     font-size: x-large;
     font-weight: bold;
-    margin-top: 30%;
+    margin-top: 10%;
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
