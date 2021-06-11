@@ -1,14 +1,12 @@
 {% extends 'main/layout.html' %}
+{% load static %}
 
 {% block title %}Main page{% endblock %}
 
 {% block content %}
-    <ul class="body_slides">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
+<figure class="fig">
+    <img src="{% static 'main/img/light6.jpeg' %}" alt="my photo">
+</figure>
 {% endblock %}
 
 
