@@ -1,36 +1,34 @@
 .navigation, .content {
-    margin-right: 0px; /* TODO: properly use bootstrap */
-    margin-left: 0px; /* TODO: properly use bootstrap */
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navigation {
+    height: 15vh;
 }
 .content {
-    height: 100vh; /* TODO: stretch to bottom */
+    height: 85vh;
 }
-.fig {
+.pic {
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.fig img {
+.pic img {
     height: 100vh;
-    max-height: 100vh;
-    width: auto;
+    position: fixed;
 }
-
 .col {
     font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
     list-style-type: none;
     font-variant: small-caps;
     font-style: normal;
     font-weight: bold;
-
+    z-index: 101;
 }
-
 .col a {
     text-decoration: none;
 }
-
 .col li {
     color: black;
     padding: 5%;
@@ -43,8 +41,14 @@
     transform: scale(1.10);
 }
 
+@media only screen and (max-width: 720px) {
+    body {
+        font-size: 0.75em;
+    }
+}
+
 .galleria {
-    padding-left: 0px; /* TODO: properly use bootstrap */
+    padding-left: 0px;
 }
 
 .contacts {
@@ -55,7 +59,7 @@
     font-variant: small-caps;
     margin-top: 10%;
     text-align: center;
-    font-size: 150%;
+    font-size: 125%;
     font-style: normal;
 }
 

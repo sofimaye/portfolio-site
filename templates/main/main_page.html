@@ -4,9 +4,16 @@
 {% block title %}Main page{% endblock %}
 
 {% block content %}
-<figure class="fig">
-    <img src="{% static 'main/img/light6.jpeg' %}" alt="my photo">
-</figure>
+    <picture class="pic">
+        <source srcset="{% static 'main/img/50px.jpg' %}" media="(max-width:50px)">
+        <source srcset="{% static 'main/img/360px.JPG' %}" media="(max-width: 360px)">
+        <source srcset="{% static 'main/img/720px.JPG' %}" media="(max-width:720px)">
+        <source srcset="{% static 'main/img/1080px.jpg' %}" media="(max-width:1080px)">
+        <source srcset="{% static 'main/img/1440px.jpg' %}" media="(max-width:1441px)">
+
+        <img src="{% static 'main/img/1440px.jpg' %}" alt='my photo'>
+    </picture>
+
 {% endblock %}
 
 
