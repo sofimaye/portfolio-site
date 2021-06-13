@@ -3,10 +3,10 @@
     margin-left: 0px;
 }
 .navigation {
-    height: 15vh;
+    height: 10vh;
 }
 .content {
-    height: 85vh;
+    height: 90vh;
 }
 
 .pic {
@@ -32,7 +32,7 @@
 }
 .col li {
     color: black;
-    padding: 5%;
+    padding-top: 10%;
     font-size: 150%;
     transition: transform .6s ease;
 }
@@ -44,7 +44,7 @@
 
 @media only screen and (max-width: 720px) {
     body {
-        font-size: 0.75em;
+        font-size: 0.8em;
     }
 }
 
@@ -54,6 +54,10 @@
 
 .contacts {
     background-color: #dcdcdc;
+}
+
+.contacts a {
+    text-decoration: none;
 }
 
 .contacts ul {
