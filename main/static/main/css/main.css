@@ -1,28 +1,28 @@
 .navigation, .content {
     margin-right: 0px;
     margin-left: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
-.navigation {
-    height: 10vh;
-}
+
 .content {
-    height: 90vh;
+    height: 100vh;
 }
 
 .pic {
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .pic img {
     height: 100vh;
-    position: fixed;
+    position: center;
 }
 .col {
     font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
     list-style-type: none;
     font-variant: small-caps;
+    word-wrap: break-word;
     font-style: normal;
     font-weight: bold;
     z-index: 101;
@@ -32,7 +32,7 @@
 }
 .col li {
     color: black;
-    padding-top: 10%;
+    padding: 10%;
     font-size: 150%;
     transition: transform .6s ease;
 }
@@ -50,6 +50,7 @@
 
 .galleria {
     padding-left: 0px;
+    height: 100vh;
 }
 
 .contacts {
